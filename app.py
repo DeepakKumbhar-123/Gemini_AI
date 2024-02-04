@@ -24,7 +24,7 @@ st.write("Desribe the type of email you want. Gemini will write it for you.")
 col1, col2 = st.columns(2)
 
 with col1:
-    src = st.text_input("Who is this email from? E.g. student")
+    src = st.text_input("Who is this email from? E.g. Student")
     subject = st.text_input("Subject")
 
 with col2:
